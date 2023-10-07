@@ -45,6 +45,7 @@ public class Vision extends LinearOpMode {
 
             }
             telemetry.update();
+            System.out.println(visionPortal.getCameraState());
 
         }
     }
